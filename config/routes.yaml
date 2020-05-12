@@ -2,6 +2,12 @@ home:
     path: /
     controller: App\Controller\DefaultController::indexAction
 
+technos:
+    path: /technos
+    controller: App\Controller\DefaultController::technosReadAction
+
 contact:
     path: /contact
     controller: App\Controller\DefaultController::contactAction
+
+    

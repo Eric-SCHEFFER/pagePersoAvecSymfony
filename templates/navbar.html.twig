@@ -5,8 +5,8 @@
 	</button>
 	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 		<div class="navbar-nav">
-			<a class="nav-item nav-link {{  app.request.pathInfo == '/' ? 'active' : '' }}" href="{{ path('contact') }}">Contact</a>
-
+			<a class="nav-item nav-link {{ 'technos' in app.request.pathInfo  ? 'active' : '' }}" href="{{ path('technos') }}">Technos</a>
+			<a class="nav-item nav-link {{ 'contact' in app.request.pathInfo  ? 'active' : '' }}" href="{{ path('contact') }}">Contact</a>
 		</div>
 	</div>
 </nav>
