@@ -10,4 +10,6 @@ contact:
     path: /contact
     controller: App\Controller\DefaultController::contactAction
 
-    
+login:
+    path: /login
+    controller: App\Controller\DefaultController::loginAction    

@@ -23,6 +23,5 @@ class DefaultController extends AbstractController
    {
       $form = $this->createForm('App\Form\FormulaireType');
       return $this->render('contact.html.twig', ["form1" => $form->createView()]);
-      
    }
 }
